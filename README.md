@@ -1,5 +1,11 @@
-# Avalon-MARL
-目标是实现一个多agent系统，模拟阿瓦隆这个桌游，并使用强化学习，尝试让模型的水平进化。
-使用Autogen或者langgarph来实现训练场景，deepseek 作为agent的基底
-不同训练轮数的模型作为不同的版本，放在一起，观察胜率，
-或许可以开一个直播来展示过程？
+# UNO RL
+仿造 Language Agents with Reinforcement Learning for  Strategic Play in the Werewolf Game 思路 
+
+实现一个多agent系统，模拟UNO这个桌游，并使用强化学习，评估LLM模型的水平进化的程度。
+胜利作为因素
+
+# Roadmap
+建立一个UNO的游戏环境
+设计prompt告知游戏规则
+多个agent开始游戏
+GUI界面可视化化游戏过程
